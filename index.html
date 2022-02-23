@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video Player With Playlist</title>
+
+</head>
+<body>
+
+<div class="row"><div class="column">
+<h2>TITLE</h2>
+</div>
+
+<div class="column">
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">MENU</button>
+<div id="myDropdown" class="dropdown-content">
+
+<p><a href="Link">Title</a></p>
+<p><a href="Link">Title</a></p>
+<p><a href="Link">Title</a></p>
+<p><a href="Link">Title</a></p>
+<p><a href="Link">Title</a></p>
+<p><a href="Link">Title</a></p>
+
+</div>
+</div>
+</div>
+</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<div class="container">
+<div class="vidcontainer">
+<video id="myvid" >
+</video>
+
+<div class="topControl">
+<div class="progress">
+<span class="bufferBar"></span>
+<span class="timeBar"></span>
+</div>
+
+<div class="time">
+<span class="current"></span> / 
+<span class="duration"></span> 
+</div>
+</div>
+
+<div class="controllers">
+<button class="btnPlay" title="Play/Pause video"></button>
+<button class="prevvid disabled" title="Previous video"><i class="fa fa-step-forward fa-rotate-180"></i></button>
+<button class="nextvid" title="Next video"><i class="fa fa-step-forward"></i></button>
+<button class="sound sound2 btn" title="Mute/Unmute sound"></button>
+<div class="volume" title="Set volume">
+<span class="volumeBar"></span>
+</div>
+
+<button class="btnFS " style="float:right" title="full screen"></button>
+<ul class="speedcnt">
+<li class="spdx50">1.5</li>
+<li class="spdx25">1.25</li>
+<li class="spdx1 selected">Normal</li>
+<li class="spdx050">0.5</li>
+</ul>
+</div>
+
+<div class="loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+
+<center>
+<div class="videolist"><nav class="vids">
+
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+<a class="link" href="Link.mp4">Title</a>
+
+</nav>
+</div>
+</div>
+</center>
+
+</body>
+</html>
