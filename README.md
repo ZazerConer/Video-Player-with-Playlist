@@ -4,7 +4,7 @@ Playlist media on the bottom video
 
 # Works for:
 
-This HTML is customized for smartphones only, if you want to load it on the desktop you can change it.
+This HTML is customized for smartphones only, if you want to load it on the desktops you can change it.
 
 # About the solution:
 
