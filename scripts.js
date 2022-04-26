@@ -1,6 +1,3 @@
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-<script>
 $(document).ready(function()
 {var vid = $('#myvid');
 $(vid).attr("src", $("a.link:first").attr("href"));
@@ -265,4 +262,3 @@ openDropdown.classList.remove('show');
 }
 }
 }
-</script>
