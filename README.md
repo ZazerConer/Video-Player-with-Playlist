@@ -1,6 +1,6 @@
 # Video Player with Playlist
 
-Playlist on the bottom video player
+Playlist media on the bottom video
 
 # Works for:
 
@@ -12,6 +12,5 @@ Still not perfect, but you can be yourself in your own way.
 
 # You can edit in this part:
 
-• <style> 
-• <script> 
-• <body>
+• (style)
+• (script)
