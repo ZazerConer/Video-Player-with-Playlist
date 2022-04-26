@@ -1,6 +1,17 @@
-# Video-Player-With-Playlist
+# Video Player with Playlist
 
-Still under repair it is still not perfect. 
-Can be edited or changed on 
+Playlist on the bottom video player
 
-<style>, <script> or <body>.
+# Works for:
+
+This HTML is customized for smartphones only, if you want to load it on the desktop you can change it.
+
+# About the solution:
+
+Still not perfect, but you can be yourself in your own way.
+
+# You can edit in this part:
+
+• <style> 
+• <script> 
+• <body>
